@@ -50,9 +50,11 @@ Recommended runtime shape:
 ## Current production URL
 
 - `https://life-soul-ring-web.vercel.app`
+- `https://soul.lucasisme.top`
 
 ## Notes
 
 - If Git auto deploy is connected, `git push` is the fastest normal workflow.
 - If you want to bypass Git and deploy local changes directly, use `npx vercel --prod`.
 - Keep large local archives out of Git and Vercel uploads.
+- For the China-facing server, keep `soul.lucasisme.top` on `DNS only` in Cloudflare and use Certbot on the server for free HTTPS with auto-renewal.
