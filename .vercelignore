@@ -1,0 +1,10 @@
+.git
+.next
+.next.zip
+.playwright-mcp
+.vercel
+coverage
+node_modules
+node_modules.zip
+npm-debug.log*
+out

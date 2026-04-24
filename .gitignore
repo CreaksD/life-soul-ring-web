@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.next.zip
+node_modules.zip
+nul
+.playwright-mcp/
+.playwright-cli/
