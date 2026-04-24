@@ -16,7 +16,7 @@
 @theme inline {
   --color-background: #f4f8f5;
   --color-foreground: #122a22;
-  --font-sans: var(--font-body);
+  --font-sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 body {
@@ -25,11 +25,11 @@ body {
     radial-gradient(circle at 92% 18%, rgba(190, 95, 44, 0.16), transparent 38%),
     linear-gradient(150deg, var(--background), var(--background-alt));
   color: var(--ink);
-  font-family: var(--font-body), "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 .font-display {
-  font-family: var(--font-display), "Times New Roman", serif;
+  font-family: "Georgia", "Times New Roman", "STSong", serif;
 }
 
 .panel-soft {

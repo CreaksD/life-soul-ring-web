@@ -42,5 +42,6 @@ next-env.d.ts
 .next.zip
 node_modules.zip
 nul
+.deploy/
 .playwright-mcp/
 .playwright-cli/
